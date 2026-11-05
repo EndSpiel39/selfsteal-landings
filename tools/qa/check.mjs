@@ -11,11 +11,14 @@ const report = [];
 for (const [width, height] of [[1440,1000],[390,844],[1100,850]]) {
   const page = await browser.newPage({viewport:{width,height},reducedMotion:'reduce'});
   page.on('pageerror', e => problems.push(`${width}: ${e.message}`));
-  page.on('request', r => { if (!r.url().startsWith('http://127.0.0.1:4173/')) externalRequests.add(r.url()); });
+  page.on('request', r => { if (!r.url().startsWith('http://127.0.0.1:4173/') && !/^https:\/\/(vkvideo\.ru|rutube\.ru|[^/]*rtbcdn\.ru|[^/]*vkvideo\.ru|[^/]*userapi\.com)\//.test(r.url())) externalRequests.add(r.url()); });
   for (let id = 1; id <= 11; id++) {
     const response = await page.goto(`http://127.0.0.1:4173/variants/${id}/`,{waitUntil:'networkidle'});
     if (response.status() !== 200) problems.push(`${width}, ${id}: ${response.status()}`);
     await page.evaluate(() => document.fonts.ready);
+    await page.locator('#examples').scrollIntoViewIfNeeded();
+    await page.evaluate(()=>Promise.all([...document.querySelectorAll('#examples img')].map(img=>img.decode())));
+    await page.evaluate(()=>scrollTo(0,0));
     const measurements = await page.evaluate(() => ({
       overflow:document.documentElement.scrollWidth > innerWidth,
       broken:[...document.images].filter(i=>!i.complete || i.naturalWidth===0).map(i=>i.src),

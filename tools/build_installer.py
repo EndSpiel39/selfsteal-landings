@@ -124,7 +124,7 @@ def package():
     encoded = base64.b64encode(bundle).decode()
     bundle_b64 = '\n'.join(encoded[offset:offset+100] for offset in range(0,len(encoded),100))
     script = (ROOT/'selfsteal.upstream.sh').read_text(encoding='utf-8')
-    script = script.replace('SCRIPT_VERSION="2.11.1"', 'SCRIPT_VERSION="2.11.1-landings.2"')
+    script = script.replace('SCRIPT_VERSION="2.11.1"', 'SCRIPT_VERSION="2.11.1-landings.3"')
     installer_url = 'https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh'
     script = script.replace('SCRIPT_URL="https://raw.githubusercontent.com/dignezzz/remnawave-scripts/main/selfsteal.sh"', f'SCRIPT_URL="{installer_url}"')
     bootstrap = (ROOT/'tools/bootstrap.sh').read_text(encoding='utf-8').replace('__INSTALLER_URL__', installer_url)

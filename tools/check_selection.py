@@ -70,5 +70,5 @@ bash <(cat '{script_path}') @ --version
 '''
     result = subprocess.run([BASH],input=bootstrap_test,text=True,encoding='utf-8',capture_output=True,env=task_env)
     assert result.returncode==0,result.stdout+result.stderr
-    assert '2.11.1-landings.2' in result.stdout,result.stdout
+    assert '2.11.1-landings.3' in result.stdout,result.stdout
 print('PASS: numbered/invalid/random/cancel/EOF choices, explicit selection, noninteractive requirements, existing-install routing, management adoption, and bash <(curl ...) @ argument preservation.')

@@ -1,0 +1,158 @@
+PUBLIC PROMOTIONAL VIDEO EXAMPLES
+Checked 2026-11-05. VK Video / Rutube only.
+Videos stream from their public provider embeds after click; no movie files are downloaded.
+Local preview images are promotional thumbnails for attribution-linked trailers.
+
+Landing 1 / VK Видео: Скарлет — первый трейлер
+Uploader: Официальное аниме в России
+Watch: https://vkvideo.ru/video-158063198_456240278
+Embed: https://vkvideo.ru/video_ext.php?oid=-158063198&id=456240278&hash=051f331269a19291&autoplay=0
+Source: https://vkvideo.ru/video-158063198_456240278
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/936892/7f5975e7ffee0c7e70cafa604761db0d/564x318_1
+
+Landing 1 / Rutube: Семья шпиона
+Uploader: Amediateka
+Watch: https://rutube.ru/video/8b8c5d28c023cfe3a97a4f2008adc07e/
+Embed: https://rutube.ru/play/embed/8b8c5d28c023cfe3a97a4f2008adc07e/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-05-27/c3/6f/c36fb52e131b24d5e4a2005dc35ef7f0.jpg
+
+Landing 2 / VK Видео: Мажор в Дубае
+Uploader: Кинопоиск
+Watch: https://vkvideo.ru/video-108468_456255697
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=79f8e6c97acac960&id=456255697&loop=0&oid=-108468
+Source: https://vkvideo.ru/video-108468_456255697
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/4518838/cb6adf39c956325963bbdf52bf61a902/564x318_1
+
+Landing 2 / Rutube: Перерождение в аристократа со способностью анализа
+Uploader: Amediateka
+Watch: https://rutube.ru/video/b5e7cc0161996f72bbfb80681025a1fd/
+Embed: https://rutube.ru/play/embed/b5e7cc0161996f72bbfb80681025a1fd/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-10-02/8e/7c/8e7c58ab9bcc77fb71393d0716f951b2.jpg
+
+Landing 3 / VK Видео: Вечность
+Uploader: Вольгá про кино
+Watch: https://vkvideo.ru/video-23712274_456244176
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=7dad848e27324795&id=456244176&loop=0&oid=-23712274
+Source: https://vkvideo.ru/video-23712274_456244176
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/3033403/f1fe3de5a6dd7b8ee048b8de648c64d6/564x318_1
+
+Landing 3 / Rutube: Шершни
+Uploader: Amediateka
+Watch: https://rutube.ru/video/8285d43e4474dfb36e20ed5b60c75bfe/
+Embed: https://rutube.ru/play/embed/8285d43e4474dfb36e20ed5b60c75bfe/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-11-02/cb/68/cb6816e93129eeeda6839af136b2b8aa.jpg
+
+Landing 4 / VK Видео: Вниз
+Uploader: Централ Партнершип
+Watch: https://vkvideo.ru/video-23900316_456244883
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=520b2fb0e98ecb720f&id=456244883&loop=0&oid=-23900316
+Source: https://vkvideo.ru/video-23900316_456244883
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/215936/1f12be75a2cf1ac100e62d8e87477c56/564x318_1
+
+Landing 4 / Rutube: Адский рай
+Uploader: Amediateka
+Watch: https://rutube.ru/video/ecfe95ef52892c7be1f3290bded18f72/
+Embed: https://rutube.ru/play/embed/ecfe95ef52892c7be1f3290bded18f72/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-01-21/65/79/6579af93ab81092a14d10fc7d63eedc6.jpg
+
+Landing 5 / VK Видео: Слон
+Uploader: Централ Партнершип
+Watch: https://vkvideo.ru/video-23900316_456242796
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=2b444fd757b1af484b&id=456242796&loop=0&oid=-23900316
+Source: https://vkvideo.ru/video-23900316_456242796
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/1532289/ac466745098fb9a39b77c1284462bf3b/564x318_1
+
+Landing 5 / Rutube: Хрустальное озеро
+Uploader: Amediateka
+Watch: https://rutube.ru/video/621aa9e48b11d357637ec4fc493bd115/
+Embed: https://rutube.ru/play/embed/621aa9e48b11d357637ec4fc493bd115/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-09-16/ae/f2/aef2487c2321b5a84d0dce49a8c0f467.jpg
+
+Landing 6 / VK Видео: Адам и Ева
+Uploader: Централ Партнершип
+Watch: https://vkvideo.ru/video-23900316_456243924
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=e595dd37a478faba43&id=456243924&loop=0&oid=-23900316
+Source: https://vkvideo.ru/video-23900316_456243924
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/1024302/4a745b2de9a27daaa1c4ff721d46986a/564x318_1
+
+Landing 6 / Rutube: Виктория с множеством козырей
+Uploader: Amediateka
+Watch: https://rutube.ru/video/a122740f23637b2bb9d970652ed7ea49/
+Embed: https://rutube.ru/play/embed/a122740f23637b2bb9d970652ed7ea49/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-08-05/b8/d9/b8d9274d6b3c2fb55ca6d118c493c8ab.jpg
+
+Landing 7 / VK Видео: Дракула
+Uploader: Атмосфера Кино
+Watch: https://vkvideo.ru/video-215783732_456241479
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=7caa93cde61c45d610&id=456241479&loop=0&oid=-215783732
+Source: https://vkvideo.ru/video-215783732_456241479
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/2351494/0e2ac9dea08b7d53efa586eed0a2c852/564x318_1
+
+Landing 7 / Rutube: Дандадан: Злой глаз
+Uploader: Amediateka
+Watch: https://rutube.ru/video/b739485a9e67bdc40cd323179bb67249/
+Embed: https://rutube.ru/play/embed/b739485a9e67bdc40cd323179bb67249/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2025-05-21/71/cd/71cd9b83158fc9ca4ee074cd47853d6c.jpg
+
+Landing 8 / VK Видео: Лёд
+Uploader: Кинопоиск
+Watch: https://vkvideo.ru/video-108468_456252408
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=e5bc3f7b93fca2b6&id=456252408&loop=0&oid=-108468
+Source: https://vkvideo.ru/video-108468_456252408
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/4759821/0a1765371f6203bf5a77fbea1b7ca405/564x318_1
+
+Landing 8 / Rutube: Адюльтер
+Uploader: Amediateka
+Watch: https://rutube.ru/video/d18cd9f153e370fe696af710f8059b93/
+Embed: https://rutube.ru/play/embed/d18cd9f153e370fe696af710f8059b93/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-10-29/22/b5/22b5ee455f25af49977df8c189cd5f20.jpg
+
+Landing 9 / VK Видео: Плакать нельзя
+Uploader: Кинопоиск
+Watch: https://vkvideo.ru/video-108468_456247948
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=86ba6c372df845c2&id=456247948&loop=0&oid=-108468
+Source: https://vkvideo.ru/video-108468_456247948
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/4303714/107d45f54cdc2f434bd48da87bdb6d59/564x318_1
+
+Landing 9 / Rutube: Улей
+Uploader: Amediateka
+Watch: https://rutube.ru/video/2af6d72c28c3cd15f45c7e84787508e0/
+Embed: https://rutube.ru/play/embed/2af6d72c28c3cd15f45c7e84787508e0/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-10-26/2d/b2/2db2d819b595543b160e1078c52d0dc2.jpg
+
+Landing 10 / VK Видео: Драники
+Uploader: Атмосфера Кино
+Watch: https://vkvideo.ru/video-215783732_456241867
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=0118014ddf9f3d0d&id=456241867&loop=0&oid=-215783732
+Source: https://vkvideo.ru/video-215783732_456241867
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/3339432/51a4a3bb13075ed82318233e2d825fde/564x318_1
+
+Landing 10 / Rutube: Убить Джеки
+Uploader: Amediateka
+Watch: https://rutube.ru/video/4a428b602ca7581546e4f77c0912d4c4/
+Embed: https://rutube.ru/play/embed/4a428b602ca7581546e4f77c0912d4c4/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-09-02/aa/e2/aae22237163f3a42759d9082cd02ef39.jpg
+
+Landing 11 / VK Видео: Доктор Гаф
+Uploader: Централ Партнершип
+Watch: https://vkvideo.ru/video-23900316_456245415
+Embed: https://vkvideo.ru/video_ext.php?autoplay=0&hash=8dcd2b18228b1649&id=456245415&loop=0&oid=-23900316
+Source: https://vkvideo.ru/video-23900316_456245415
+Thumbnail: https://avatars.mds.yandex.net/get-vthumb/1962952/b950b9004a16dc6cf0576ac52780f9d5/564x318_1
+
+Landing 11 / Rutube: Школа медсестер
+Uploader: Amediateka
+Watch: https://rutube.ru/video/809a87a12e9719b47ab75c4097e96d3a/
+Embed: https://rutube.ru/play/embed/809a87a12e9719b47ab75c4097e96d3a/
+Source: https://rutube.ru/u/amediateka/
+Thumbnail: https://pic.rtbcdn.ru/video/2026-10-27/7f/62/7f625fc1de1cb2b19a8ce7060f629eb0.jpg

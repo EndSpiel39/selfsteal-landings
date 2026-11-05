@@ -2,6 +2,7 @@
 from pathlib import Path
 import json
 from build_brands import BRANDS, brand_page
+from media_samples import add_media_samples
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
@@ -96,13 +97,13 @@ ICONS = {
 
 def page(i: int, assets: str):
     if i > 0:
-        return brand_page(i, assets)
+        return add_media_samples(brand_page(i, assets), i, assets)
     name, layout, bg, surface, fg, muted, accent, ink, headline, tagline = VARIANTS[i]
     tokens = f'--bg:{bg};--surface:{surface};--fg:{fg};--muted:{muted};--accent:{accent};--accent-ink:{ink}'
     result = HTML
     for key, value in {'__LAYOUT__': layout, '__TOKENS__': tokens, '__BG__': bg, '__SCHEME__': 'dark' if bg in ['#101212','#100f16','#242823','#102322','#131d2b'] else 'light', '__ASSETS__': assets, '__HEADLINE__': headline, '__TAGLINE__': tagline, '__ARROW__': ARROW, '__LOGO__': LOGO, **ICONS}.items():
         result = result.replace(key, value)
-    return result
+    return add_media_samples(result, i, assets)
 
 def build():
     SITE.mkdir(exist_ok=True)

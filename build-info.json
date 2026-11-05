@@ -2,7 +2,7 @@
   "upstream": "https://raw.githubusercontent.com/DigneZzZ/remnawave-scripts/main/selfsteal.sh",
   "downloaded": "2026-11-05",
   "upstream_sha256": "2f82a4a73492d8cdb8014aa91c73560929b88a66c23c51af79bfb9a96cdb92b4",
-  "bundle_sha256": "e73a010150f641cdfdab43698bcbb51bba5b9f43f5365409b5256449f572b0af",
-  "script_sha256": "c74c7c84d5330a9544c5fe5ab560906469c801a4a8a1e71989cf08c4b80ebe6b",
+  "bundle_sha256": "cd83bdd639c7d50dc3512591d2859c1417a3825774284d0172baec40a7944aa7",
+  "script_sha256": "59e101c9ca53613ab76c60c902d378e0c2daf6cd48a03a14594e07d84a93f407",
   "template_count": 11
 }
