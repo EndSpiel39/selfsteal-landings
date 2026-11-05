@@ -1,2 +1,147 @@
-# selfsteal-landings
-Selfsteal with 11 distinct co-watching landing pages, interactive selection and safe template replacement.
+# 11 самостоятельных лендингов для Selfsteal
+
+Модифицированный `selfsteal.sh` на основе DigneZzZ/remnawave-scripts. Все 11 шаблонов заменены самостоятельными сайтами о совместном просмотре. У каждого своё название, логотип, фотографии, тексты, типографика и структура. Первый «Рядом» сохранён после согласования; остальные десять описывают просмотр видеоссылок из YouTube, Telegram, VK Видео и других платформ с друзьями.
+
+Это статические страницы с демонстрацией интерфейса. Они не воспроизводят видеоссылки, не создают аккаунты, не собирают персональные данные и не проверяют приглашения. На странице описано закрытое тестирование с персональными ссылками от команды. Реализация видеосервиса в пакет не входит.
+
+## Посмотреть локально
+
+В этой папке:
+
+```powershell
+python -m http.server 4173 --bind 127.0.0.1 --directory site
+```
+
+- Главная: <http://127.0.0.1:4173/>
+- Все варианты: <http://127.0.0.1:4173/gallery.html>
+- Конкретный вариант: <http://127.0.0.1:4173/variants/2/>
+
+Галерея предназначена для локального выбора оформления и на сервер вместе с лендингом не устанавливается.
+
+## Новая установка на Linux-сервер
+
+Публичный репозиторий: [EndSpiel39/selfsteal-landings](https://github.com/EndSpiel39/selfsteal-landings).
+
+Запустите на VPS от root:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ install
+```
+
+В начале установки скрипт **спросит, какой лендинг поставить**: покажет названия и короткие описания 11 сайтов. `r` — выбрать случайный, `0` — отменить. Пустой ответ не выбирает сайт автоматически. Запуск через `bash <(curl ...)` сохраняет временную локальную копию этой сборки, из которой затем устанавливается управляющая команда `selfsteal`.
+
+Выбор можно задать сразу:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ --template 8 install
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ --template random install
+```
+
+Автоматический режим `--force` требует явный `--template 1..11` или `--template random`, а также домен. Например:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ --force --domain video.example.org --template random install
+```
+
+Альтернатива — запуск из сохранённого файла:
+
+Скопируйте **новый** `selfsteal.sh` на сервер, например в `/root/ryadom/`. В нём уже находятся HTML, CSS, JavaScript, фотография и шрифт всех 11 вариантов. Затем:
+
+```bash
+cd /root/ryadom
+sudo bash ./selfsteal.sh install
+```
+
+Установщик запрашивает лендинг, домен и параметры. По умолчанию использует Caddy. Для Nginx:
+
+```bash
+sudo bash ./selfsteal.sh --nginx --template 2 install
+```
+
+Исходная команда с адресом `DigneZzZ/remnawave-scripts` скачивает оригинал автора. Для этих лендингов используйте адрес `EndSpiel39/selfsteal-landings` из команд выше.
+
+## Уже установлен Selfsteal
+
+**Для смены сайта используйте `template`, а не повторный `install`.** Это сохраняет конфигурацию сервера и сертификаты.
+
+Чтобы заменить старые шаблоны новыми, запустите из root:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ template
+```
+
+Появится меню выбора. Для прямой замены или случайного сайта:
+
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ --template 6 template
+bash <(curl -fsSL https://raw.githubusercontent.com/EndSpiel39/selfsteal-landings/main/selfsteal.sh) @ --template random template
+```
+
+После успешной замены управляющая команда тоже обновляется до этой сборки. В дальнейшем достаточно:
+
+```bash
+selfsteal template
+selfsteal --template 3 template
+selfsteal --template random template
+```
+
+`v` показывает текущий лендинг, `k` или `0` оставляет его без изменений. Если установлены оба веб-сервера, укажите `--nginx` или `--caddy` явно.
+
+Можно заменить только статический сайт, сохранив конфигурацию сервера. Сначала распакуйте нужный вариант **в новый каталог**:
+
+```bash
+bash ./selfsteal.sh export-template 2 ./ryadom-landing
+```
+
+Для штатной установки Caddy каталог сайта — `/opt/caddy/html`, для Nginx — `/opt/nginx-selfsteal/html`. Сохраните резервную копию текущего сайта и перенесите содержимое `ryadom-landing` в используемый каталог сайта. Домен, сертификаты и конфигурацию Remnawave для такой замены менять не нужно.
+
+Либо используйте новый скрипт для прямого переключения шаблона в уже обнаруженной штатной установке:
+
+```bash
+sudo bash ./selfsteal.sh --template 2 template
+```
+
+Вариант выбирается по номеру 1–11. Скрипт готовит файлы во временном каталоге, сохраняет текущий сайт в `.ryadom-backup.*` рядом с `html`, обновляет содержимое `html`, сохраняя сам каталог для Docker bind mount. При ошибке копирования пытается вернуть прежние файлы. Конфигурация веб-сервера не изменяется, перезапуск для статики не требуется.
+
+После новой установки доступно интерактивное меню `selfsteal template`. Автообновление из upstream отключено для этой сборки: оно заменило бы кастомный скрипт оригиналом. HTML не подвергается случайной смене бренда и цветов.
+
+## Варианты
+
+| № | Название | Компоновка |
+|---|---|---|
+| 1 | Рядом | Сохранённый тёмный кинозал, лаймовый акцент |
+| 2 | Линкрум | Светлый продукт, синий, очередь ссылок |
+| 3 | Титры | Киножурнал, сливовый, книжная типографика |
+| 4 | Волна | Морская панорама, бирюзовый, общий таймлайн |
+| 5 | Кадр | Редакционная афиша, красный, строгая сетка |
+| 6 | Плед | Тёплый домашний, бордовый, мягкая антиква |
+| 7 | Синк | Контрастный, кислотный, три синхронных счётчика |
+| 8 | Дубль | Лавандовый, два экрана, свидание на расстоянии |
+| 9 | Комната | Лесной, фото на весь экран, спокойная антиква |
+| 10 | Кружок | Мятный, дружеский клуб, коллаж |
+| 11 | Смотрим | Браузерная композиция, ультрамарин, очередь видео |
+
+## Исходники и проверки
+
+- `site/` — готовые страницы и локальные ресурсы, без сборки в браузере.
+- `tools/build_site.py` — генератор 11 страниц.
+- `tools/build_brands.py` — структура, тексты и бренды десяти самостоятельных сайтов.
+- `tools/build_installer.py` — упаковка страниц в самостоятельный Bash-скрипт.
+- `tools/bootstrap.sh` — сохранение локальной копии при запуске через process substitution.
+- `tools/installer_runtime.sh` — меню выбора и замены лендингов.
+- `tools/check_installer.py` — проверка распаковки, резервной копии и отката; для Windows использует Git Bash.
+- `tools/check_selection.py` — проверки выбора, случайного сайта, отмены и запуска через `bash <(curl ...)`.
+- `tools/qa/check.mjs` — проверка 11 страниц в Chrome на ширинах 1440, 1100 и 390 px, скриншоты и сценарии взаимодействия. Зависимость — `playwright-core` в `tools/qa`.
+- `selfsteal.upstream.sh` — сохранённый оригинал для сравнения.
+- `build-info.json` — контрольные суммы оригинала, шаблонов и готового скрипта.
+
+```powershell
+python tools/build_installer.py
+python tools/check_installer.py
+python tools/check_selection.py
+node tools/qa/check.mjs
+```
+
+Проверки выполняются локально; установка Docker, выпуск сертификатов и работа на вашем Linux-сервере не проверялись. Исходная логика установки Caddy/Nginx сохранена за исключением выбора/установки шаблонов, защиты кастомной версии от обновления и исправления раннего вызова `--help`.
+
+Фотографии — Unsplash; шрифты Manrope, Golos Text, Lora и Unbounded — SIL OFL. Источники и лицензии находятся в `site/assets/SOURCES.txt`, `site/assets/OFL.txt` и `site/assets/brands/`. Названия — творческие варианты, регистрация товарных знаков не проверялась. Оригинальный проект Selfsteal распространяется под MIT; его авторство сохранено в заголовке скрипта и `LICENSE.upstream`.

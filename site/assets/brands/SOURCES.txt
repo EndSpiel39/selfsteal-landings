@@ -1,0 +1,86 @@
+BRAND ASSET SOURCES
+Downloaded and verified: 2026-11-05
+
+Photographs: Unsplash License, https://unsplash.com/license
+Illustrative editorial photographs, not film stills. No author attribution is asserted.
+Direct URLs below resolved successfully when the files were downloaded.
+
+linkroom.jpg
+https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&w=1440&h=810&q=60&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 304605 bytes
+
+titry.jpg
+https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1440&h=960&q=80&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 283573 bytes
+
+volna.jpg
+https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1440&h=960&q=80&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 166342 bytes
+
+kadr.jpg
+https://images.unsplash.com/photo-1511818966892-d7d671e672a2?auto=format&fit=crop&w=1440&h=810&q=70&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 289840 bytes
+
+pled.jpg
+https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1440&h=960&q=80&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 260316 bytes
+
+sync.jpg
+https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1440&h=960&q=80&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 255806 bytes
+
+dubl.jpg
+https://images.unsplash.com/photo-1472120435266-53107fd0c44a?auto=format&fit=crop&w=1440&h=960&q=80&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 58857 bytes
+
+komnata.jpg
+https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1440&h=960&q=80&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 298651 bytes
+
+kruzhok.jpg
+https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1440&h=810&q=60&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 292605 bytes
+
+smotrim.jpg
+https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1440&h=810&q=65&fm=jpg
+License: Unsplash License (https://unsplash.com/license)
+Size: 293281 bytes
+
+lora.ttf
+https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora%5Bwght%5D.ttf
+License: SIL Open Font License 1.1; see matching font OFL text
+Size: 212196 bytes
+
+lora-OFL.txt
+https://raw.githubusercontent.com/google/fonts/main/ofl/lora/OFL.txt
+License: SIL Open Font License 1.1; see matching font OFL text
+Size: 4423 bytes
+
+unbounded.ttf
+https://raw.githubusercontent.com/google/fonts/main/ofl/unbounded/Unbounded%5Bwght%5D.ttf
+License: SIL Open Font License 1.1; see matching font OFL text
+Size: 778272 bytes
+
+unbounded-OFL.txt
+https://raw.githubusercontent.com/google/fonts/main/ofl/unbounded/OFL.txt
+License: SIL Open Font License 1.1; see matching font OFL text
+Size: 4392 bytes
+
+golos.ttf
+https://raw.githubusercontent.com/google/fonts/main/ofl/golostext/GolosText%5Bwght%5D.ttf
+License: SIL Open Font License 1.1; see matching font OFL text
+Size: 184292 bytes
+
+golos-OFL.txt
+https://raw.githubusercontent.com/google/fonts/main/ofl/golostext/OFL.txt
+License: SIL Open Font License 1.1; see matching font OFL text
+Size: 4394 bytes

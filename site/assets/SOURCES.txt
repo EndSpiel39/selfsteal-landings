@@ -1,0 +1,8 @@
+Mountain landscape photograph: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b
+Downloaded 2026-11-05. License: https://unsplash.com/license
+Local crop is done by object-fit in CSS; photograph is illustrative demo content, not a film poster or supplied streaming media.
+
+Manrope variable font: https://github.com/google/fonts/tree/main/ofl/manrope
+SIL Open Font License 1.1. See OFL.txt.
+
+All interface marks and icons are authored SVG geometry. No video-service logos are used.
